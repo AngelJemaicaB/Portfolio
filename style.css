@@ -1,10 +1,9 @@
 
-
 body{
     margin: 0px;
     font-family: Hauora;
     background-color: #fffcf3;
-    
+    height: 100%;
 }
 main{
     margin-left: 20px;
@@ -13,8 +12,8 @@ main{
     place-items: center;
     height: 300px;   
     padding: min(5em, 8%);
- 
-    
+    padding-bottom: 60px;
+    padding: 25px;
 }
 
 
@@ -22,9 +21,7 @@ h1{
     font-family: CocogooseProTrial Darkmode;
     color:#591916;
     text-align: center;
-    margin-right: 25px;
     font-size: clamp(1.8rem, calc(2vw + 1rem), 5rem);
-    
 }
 
 img{
@@ -36,15 +33,13 @@ img{
 
 .navbar ul{
     list-style-type: none;
-    background-color: #c34a0d;
-    padding: 0px;
-    margin: 0px;
+    background-color: #d56644;
     overflow: hidden;
     display:flex;
-    align-items: center;
     justify-content: center;
     gap:80px;
 }
+
 .navbar a{
     color: #fff4db;
     text-decoration: none;
@@ -69,6 +64,8 @@ footer{
     margin: 0px;
     text-align: center;
     font-family: HarmonyOS Sans SC Medium;
+    height: 50px;
+
 }
 
 footer ul{
