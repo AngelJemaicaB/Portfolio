@@ -26,15 +26,13 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color: #c34a0d;
-    padding: 0px;
-    margin: 0px;
+    background-color: #d56644;
     overflow: hidden;
     display:flex;
-    align-items: center;
     justify-content: center;
     gap:80px;
 }
+
 .navbar a{
     color: #fff4db;
     text-decoration: none;
