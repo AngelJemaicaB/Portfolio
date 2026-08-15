@@ -4,6 +4,7 @@ body{
     margin: 0px;
     font-family: Hauora;
     background-color: #fffcf3;
+    
 }
 main{
     margin-left: 20px;
@@ -11,18 +12,27 @@ main{
     display: grid;
     place-items: center;
     height: 300px;   
-}
-
-
-h2{
-    font-family: HarmonyOS Sans SC Medium;
-
-    text-align: center;
-    margin-right: 25px;
-    padding:5px
+    padding: min(5em, 8%);
+ 
     
 }
 
+
+h1{
+    font-family: CocogooseProTrial Darkmode;
+    color:#591916;
+    text-align: center;
+    margin-right: 25px;
+    font-size: clamp(1.8rem, calc(2vw + 1rem), 5rem);
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
 
 .navbar ul{
     list-style-type: none;
@@ -36,7 +46,7 @@ h2{
     gap:80px;
 }
 .navbar a{
-    color: white;
+    color: #fff4db;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -50,8 +60,8 @@ h2{
 }
 
 footer{
-    background: #ffeecd;
-    color: #fff;
+    background: #953536;
+    color: #953536;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -65,24 +75,21 @@ footer ul{
     margin-right: 25px;
     padding:0;
     list-style-type: none;
-    background-color: #ffeecd;
+    background-color: #953536;
     overflow: hidden;
     display:flex;
     align-items: center;
     justify-content:space-evenly
 }
 
-footer ul li{
-    margin: 5px 5px;
-}
 
 footer ul li a{
-    color:#260f12 ;
+    color:#fff4db;
     text-decoration: none;
 }
 
-footer ul li a:hover{
-   color: antiquewhite;
+footer a:hover{
+  color: rgb(173, 126, 69);
 }
 
 @media screen and (max-width: 600px){
@@ -91,4 +98,10 @@ footer ul li a:hover{
         flex-direction: column;
         align-items: center;
     }
+
+        /* .navbar{
+        display:flex;
+        flex-direction: column;
+        align-items: center; */
+    
 }

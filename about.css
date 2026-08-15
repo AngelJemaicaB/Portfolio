@@ -1,0 +1,52 @@
+
+
+body{
+    margin: 0px;
+    font-family: Hauora;
+    background-color: #fffcf3;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    place-items: center;
+    height: 300px;   
+}
+
+
+h1{
+    font-family: CocogooseProTrial Darkmode;
+    color:#591916;
+    text-align: center;
+    margin-right: 25px;
+   
+    
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #c34a0d;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+}
+.navbar a{
+    color: #fff4db;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:#a8281c;
+}
+.navbar li{
+    font-family: HarmonyOS Sans SC Medium;
+}
+
+
