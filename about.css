@@ -18,9 +18,7 @@ h1{
     font-family: CocogooseProTrial Darkmode;
     color:#591916;
     text-align: center;
-    margin-right: 25px;
-   
-    
+    font-size: clamp(1.8rem, calc(2vw + 1rem), 5rem);
 }
 
 
