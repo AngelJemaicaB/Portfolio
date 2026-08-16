@@ -153,7 +153,22 @@ footer a:hover{
     height: 100%;
     border-radius: 30px;
     object-fit: cover;
+
+    /* interactive effectz */
+    transition: rotate 2s;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
+
+.photo img:hover {
+    transform: rotate(-5deg);
+    filter: drop-shadow(-3px 3px 3px #9f4a3b);
+}
+
+
 
 @media  (max-width: 768px){
     .container_B{
