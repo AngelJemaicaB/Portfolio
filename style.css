@@ -136,14 +136,25 @@ footer a:hover{
 .title{
     margin-bottom: 2rem;
     text-align: center;
+    font-family: CocogooseProTrial Darkmode;
+    font-size: 30px;
+    color:#e0995a;
+}
+
+.work_description{
     font-family: Hauora;
+    margin-bottom: 50px;
+    color:#e0995a;
+    font-size: 20px;
 }
 
 .title2{
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
-    font-family: Hauora;
+    font-family: CocogooseProTrial Darkmode;
+    font-size: 30px;
+    color:#e0995a;
 }
 
 .container_A{
