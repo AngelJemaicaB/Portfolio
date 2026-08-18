@@ -12,14 +12,11 @@ body{
 }
 
 main{
-  
-    margin-right: 20px;
     display: grid;
     place-items: center;
     height: 300px;   
     padding: min(5em, 8%);
-    padding-bottom: 60px;
-    padding: 25px;
+    padding: 30px;
 }
 
 h1{
@@ -31,20 +28,32 @@ h1{
     margin-top: 1rem;
 }
 
-img.ID{
+.IDcont img{
     width: 100%;
     max-width: 550px;
     height: auto;
     aspect-ratio: 3/2;
     object-fit: cover;
-    margin-top: 50px;
+    transition: all 0.4s ease;
 }
 
-.IDcont img :hover{
-    background-color: #9f4a3b;
-    transform: rotate(-5deg);
-    filter: drop-shadow(-3px 3px 3px #9f4a3b);
+
+.IDcont img:hover{
+    
+    border-radius: 10px;
+    transform: rotate(-3deg);
+    filter: drop-shadow( 8px 8px 3px #380909);
 }
+
+.IDinfo{
+    text-align: justify;
+    color: #fff4db;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
 
 .navbar ul{
     list-style-type: none;
@@ -61,18 +70,18 @@ img.ID{
     text-decoration: none;
     padding: 15px;
     display: block;
+    transition: all 0.4s ease;
 }
 
 .navbar a:hover{
     background-color:#691c1d;
     border-radius: 7px;
-    transition: 0.5s;
+    
 }
 
 .navbar li{
     font-family: HarmonyOS Sans SC Medium;
 }
-
 
 
 footer{
@@ -100,14 +109,14 @@ footer ul{
 }
 
 
-footer ul li a{
+footer a{
     color:#fff4db;
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
 footer a:hover{
     color: #461415;
-    transition: 0.5s;
 }
 
 @media screen and (max-width: 600x){
@@ -135,8 +144,6 @@ footer a:hover{
     margin-bottom: 2rem;
     text-align: center;
     font-family: Hauora;
-    
-
 }
 
 .container_A{
@@ -188,15 +195,17 @@ footer a:hover{
 }
 
 .about_title{
+    font-size: 13px;
     display: inline-block;
-    background-color: #ffd577;
-    color:#9f4a3b;
+    background-color: #e7a353;
+    color:#a03d44;
     padding: 14px 45px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 5px 20px #ba7224;
+    box-shadow: 0 5px 20px #380d02;
     margin-bottom: 30px;
     font-weight: 800;
+    font-family: CocogooseProTrial Darkmode;
 }
 
 .about_column h3{
@@ -206,6 +215,7 @@ footer a:hover{
 
 .about_column li{
     line-height: 1.5;
+    list-style-type: none;
 }
 
 .about_container{
@@ -220,7 +230,7 @@ footer a:hover{
     min-width: 280px;
     max-width: 480px;
     text-align: center;
-    color:#9f4a3b ;
+    color:#ffebd6 ;
 }
 
 .about_column ul{
