@@ -214,8 +214,7 @@ footer a:hover{
 }
 
 .about_column li{
-    line-height: 1.5;
-    list-style-type: none;
+    line-height: 2;
 }
 
 .about_container{
@@ -223,6 +222,12 @@ footer a:hover{
     gap: 60px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.listB h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .about_column{
@@ -245,8 +250,8 @@ footer a:hover{
     border-radius: 20px;
     margin-top: 1.5rem;
     overflow: hidden;
-    box-shadow: 0 5px 10px #ba7224;
-   
+    box-shadow: 0 5px 18px #fcbf74;
+    margin-bottom: 20px;
 }
 
 .img_about img{
