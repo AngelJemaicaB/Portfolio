@@ -1,4 +1,4 @@
-C:/Users/63919/Desktop/Portfolio/Image filter=lfs diff=lfs merge=lfs -text
+C:/Users/63919/Desktop/Portfolio_HTML_PROJECT/Image filter=lfs diff=lfs merge=lfs -text
 Image/*RS-1.jpg filter=lfs diff=lfs merge=lfs -text
 Image/*Art.jpg filter=lfs diff=lfs merge=lfs -text
 Image/*Poster.jpg filter=lfs diff=lfs merge=lfs -text
