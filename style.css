@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,840;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -110,7 +111,6 @@ footer ul{
     align-items: center;
     gap: 10px;
     justify-content: space-evenly;
-
 }
 
 
@@ -139,7 +139,6 @@ footer a:hover{
 
 
 /*____________ MY WORK TAB __________*/
-
 
 
 .title{
@@ -296,4 +295,3 @@ footer a:hover{
     object-fit: cover;
     display: block;
 }
-
